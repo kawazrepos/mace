@@ -23,7 +23,7 @@
       };
       this.ace = ace.edit(this.editor);
       this.ace.getSession().setMode("ace/mode/markdown");
-      this.ace.setTheme("ace/theme/monokai");
+      this.ace.setTheme("ace/theme/chrome");
       marked.setOptions({
         renderer: new marked.Renderer(),
         gfm: true,

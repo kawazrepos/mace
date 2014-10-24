@@ -18,7 +18,7 @@ class Mace
     ## ace settings
     @ace = ace.edit @editor
     @ace.getSession().setMode "ace/mode/markdown"
-    @ace.setTheme "ace/theme/monokai"
+    @ace.setTheme "ace/theme/chrome"
 
     ## marked settings
     marked.setOptions
