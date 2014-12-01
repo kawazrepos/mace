@@ -5,7 +5,7 @@
 var ace_deps = [
   "ace.js",
   "mode-markdown.js",
-  "theme-monokai.js"
+  "theme-chrome.js"
 ];
 
 var gulp = require("gulp"),
